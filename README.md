@@ -8,13 +8,17 @@
 
 FESS‑Grasp/
 ├── .gitignore
+├── LICENSE
 ├── README.md
+├── requirements.txt
 ├── results/ # Training curves (PNG)
 │ ├── loss_curve.png
 │ └── accuracy_curve.png
-└── logs_csv/ # Scalar data in CSV format
-├── loss_overall_loss.csv
-└── stage1_objectness_acc.csv
+├── logs_csv/ # Scalar data in CSV format
+│ ├── loss_overall_loss.csv
+│ └── stage1_objectness_acc.csv
+├── export_tensorboard_scalars.py
+└── plot_csv_metrics.py
 
 
 ---
@@ -37,7 +41,7 @@ FESS‑Grasp/
 
 We also export raw scalar values for fine-grained analysis:
 
-- `loss_overall_loss.csv`: Training loss over steps
+- `loss_overall_loss.csv`: Training loss over steps  
 - `stage1_objectness_acc.csv`: Accuracy in stage 1
 
 ---
@@ -50,3 +54,10 @@ We also export raw scalar values for fine-grained analysis:
 ```bash
 pip install tensorboard pandas
 python3 export_tensorboard_scalars.py
+
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+✨ Acknowledgements
+This repository is maintained as part of our research on multi-stage grasp detection.
+Feel free to fork, use, or contribute!
