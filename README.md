@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # FESS‑Grasp 🌟
 
 **Code and training logs for our paper on multi-stage grasp detection**
@@ -52,8 +51,5 @@ We also export raw scalar values for fine-grained analysis:
 pip install tensorboard pandas
 python3 export_tensorboard_scalars.py
 
-
-=======
 # FESS-Grasp
 Code and training logs for our paper on multi-stage grasp detection.
->>>>>>> 3174aecc105235a9842340a9643726b2863b3ff9
