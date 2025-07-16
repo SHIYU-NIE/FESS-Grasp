@@ -54,10 +54,10 @@ We also export raw scalar values for fine-grained analysis:
 ```bash
 pip install tensorboard pandas
 python3 export_tensorboard_scalars.py
-
-📄 License
+```
+## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-✨ Acknowledgements
+## ✨ Acknowledgements
 This repository is maintained as part of our research on multi-stage grasp detection.
 Feel free to fork, use, or contribute!
