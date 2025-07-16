@@ -50,6 +50,3 @@ We also export raw scalar values for fine-grained analysis:
 ```bash
 pip install tensorboard pandas
 python3 export_tensorboard_scalars.py
-
-# FESS-Grasp
-Code and training logs for our paper on multi-stage grasp detection.
